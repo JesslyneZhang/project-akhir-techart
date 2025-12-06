@@ -2,7 +2,7 @@
 ## Customer
 1. Buka aplikasi
    - Jalankan server lokal (XAMPP atau MAMP)
-   - Buka browser dan akses http://localhost/PROJECT AKHIR TECHART HOTEL
+   - Buka browser dan akses http://localhost/BuddiesHotel\
 2. Registrasi & Login
    - Registrasi: mengisi regis form nama, email, dan password
    - Login: masukkan email dan password
@@ -17,7 +17,7 @@
 
 ## Admin
 1. Login
-   - Akses backend admin http://localhost/PROJECT AKHIR TECHART HOTEL/admin
+   - Akses backend admin http://localhost/BuddiesHotel\/admin
    - Masukkan username & password admin
 2. Kelola data sistem
    - Mengelola kamar hotel: tambah, edit, hapus
