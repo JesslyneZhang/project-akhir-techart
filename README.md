@@ -22,7 +22,7 @@ Website Buddies Hotel merupakan platform pemesanan kamar hotel berbasis web yang
    git clone https://github.com/JesslyneZhang/project-akhir-techart.git
    ```
 2. Pindahkan project ke ke htdocs (XAMPP).
-   /Applications/XAMPP/xamppfiles/htdocs/
+   /Applications/XAMPP/htdocs/
 3. Import database dari /docs/db.sql.
 4. Jalankan di browser: http://localhost/BuddiesHotel/
 
