@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Us | BuddiesHotel</title>
+
+    <!-- Boxicons -->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="public/assets/css/about.css" />
+    <link rel="stylesheet" href="public/assets/css/style.css" />
+  </head>
+  <body>
+    <!-- ===== NAVBAR ===== -->
+    <header>
+      <div class="nav container">
+        <a href="index.php" class="logo"> <i class="bx bx-home-alt"></i>BuddiesHotel </a>
+
+        <input type="checkbox" id="menu" />
+        <label for="menu"><i class="bx bx-menu" id="menu-icon"></i></label>
+
+        <ul class="navbar">
+          <li><a href="index.php">Home</a></li>
+          <li><a href="about_us.php">About Us</a></li>
+          <li><a href="contact_us.php">Contact Us</a></li>
+          <li><a href="hotel.php">Hotel</a></li>
+        </ul>
+
+        <a href="login.php" class="btn">Log In</a>
+      </div>
+    </header>
+
+    <!-- ===== HERO ABOUT ===== -->
+    <section class="contact-page-hero">
+      <div class="breadcrumb-box">
+        <h1>About Us</h1>
+        <div class="breadcrumb">
+          <a href="index.php">Home</a>
+          <i class="bx bx-chevron-right"></i>
+          <span>About Us</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== ABOUT SECTION ===== -->
+    <div class="about-wrapper">
+      <!-- Section 1: About BuddiesHotel -->
+      <section class="about-section">
+        <div class="about-content">
+          <div class="about-image">
+            <img src="public/assets/img/about-buddies.jpg" alt="BuddiesHotel" />
+          </div>
+          <div class="about-text">
+            <h3>Welcome to BuddiesHotel</h3>
+            <p>BuddiesHotel is a premium lifestyle hotel where comfort meets connection.</p>
+            <p>Founded in 2018, we focus on modern hospitality with a social atmosphere.</p>
+            <p>Every corner is designed for relaxation, productivity, and memorable experiences.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section 2: Info Strip -->
+      <section class="info-strip-elegant">
+        <div class="info-card">
+          <i class="bx bx-map"></i>
+          <h4>Prime Location</h4>
+          <p>Seminyak, Bali</p>
+        </div>
+        <div class="info-card">
+          <i class="bx bx-star"></i>
+          <h4>Luxury Service</h4>
+          <p>Comfort & Quality</p>
+        </div>
+        <div class="info-card">
+          <i class="bx bx-group"></i>
+          <h4>Community</h4>
+          <p>Friendly Atmosphere</p>
+        </div>
+      </section>
+
+      <!-- Section 3: Mission & Vision -->
+      <section class="mission-vision">
+        <h2 class="mv-title">Our Values</h2>
+        <div class="mv-grid">
+          <div class="mv-card">
+            <i class="bx bx-bullseye"></i>
+            <h3>Mission</h3>
+            <p>Creating meaningful hospitality experiences.</p>
+          </div>
+          <div class="mv-card">
+            <i class="bx bx-show"></i>
+            <h3>Vision</h3>
+            <p>Be the most inspiring hotel brand in Southeast Asia.</p>
+          </div>
+          <div class="mv-card">
+            <i class="bx bx-heart"></i>
+            <h3>Promise</h3>
+            <p>Warm service and lasting memories.</p>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- ===== FOOTER ===== -->
+    <section class="footer">
+      <div class="footer-container container">
+        <h2>BuddiesHotel</h2>
+        <div class="footer-box">
+          <h3>Quick Links</h3>
+          <a href="#">About Us</a>
+          <a href="#">Hotels</a>
+          <a href="#">Contact</a>
+        </div>
+        <div class="footer-box">
+          <h3>Popular Areas</h3>
+          <a href="#">Seminyak</a>
+          <a href="#">Ubud</a>
+          <a href="#">Canggu</a>
+          <a href="#">Nusa Dua</a>
+        </div>
+        <div class="footer-box">
+          <h3>Contact</h3>
+          <a href="#">+62 361 123 4567</a>
+          <a href="#">info@buddieshotel.com</a>
+          <div class="social">
+            <a href="#"><i class="bx bxl-facebook"></i></a>
+            <a href="#"><i class="bx bxl-twitter"></i></a>
+            <a href="#"><i class="bx bxl-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Copyright -->
+    <div class="copyright">
+      <p>&#169; BuddiesHotel All Right Reserved</p>
+    </div>
+
+    <!-- JS -->
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BuddiesHotel - Room Details</title>
+
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+    <link href="https://unpkg.com/boxicons@2.1.6/css/boxicons.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="public/assets/css/detailroom.css" />
+    <link rel="stylesheet" href="public/assets/css/style.css" />
+  </head>
+  <body>
+    <!-- ===== NAVBAR ===== -->
+    <header>
+      <div class="nav container">
+        <a href="index.php" class="logo"> <i class="bx bx-home-alt"></i>BuddiesHotel </a>
+
+        <input type="checkbox" id="menu" />
+        <label for="menu"><i class="bx bx-menu" id="menu-icon"></i></label>
+
+        <ul class="navbar">
+          <li><a href="index.php">Home</a></li>
+          <li><a href="about_us.php">About Us</a></li>
+          <li><a href="contact_us.php">Contact Us</a></li>
+          <li><a href="hotel.php" class="active">Hotel</a></li>
+        </ul>
+
+        <a href="login.php" class="btn">Log In</a>
+      </div>
+    </header>
+
+    <!-- ================= HERO ================= -->
+    <section class="contact-page-hero">
+      <div class="breadcrumb-box">
+        <h1>Details Room</h1>
+        <div class="breadcrumb">
+          <a href="index.php">Home</a>
+          <i class="bx bx-chevron-right"></i>
+          <span>Hotel</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Main Content -->
+    <div class="container content-wrapper">
+      <div class="left-content">
+        <!-- Gallery -->
+        <div class="room-gallery">
+          <div class="thumbnail">
+            <img src="assets/img/detailroom1.jpg" alt="" />
+          </div>
+          <div class="thumbnail">
+            <img src="assets/img/detailroom2.jpg" alt="" />
+          </div>
+          <div class="thumbnail">
+            <img src="assets/img/detailroom3.jpg" alt="" />
+          </div>
+
+          <div class="main-image">
+            <img src="assets/img/detailroom4.jpg" alt="" />
+          </div>
+        </div>
+
+        <!-- Room Header -->
+        <div class="room-header">
+          <div class="room-title">
+            <h2>Deluxe Ocean View</h2>
+            <span class="badge">Premium Room</span>
+          </div>
+          <div class="rating">
+            <span class="stars">
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bx-star"></i>
+            </span>
+            <span>(186 Reviews)</span>
+          </div>
+        </div>
+
+        <div class="location"><i class="bx bx-map"></i> Jl. Pantai Berawa No. 88, Canggu, Bali</div>
+
+        <div class="price-booking">
+          <div class="price">Rp 1,250,000 <span>/ night</span></div>
+          <a href="booking.php" class="btn-booking">Book Now</a>
+        </div>
+
+        <!-- Specs -->
+        <div class="room-specs">
+          <div class="spec-item"><i class="bx bx-bed"></i> 1 King Bed</div>
+          <div class="spec-item"><i class="bx bx-ruler"></i> 450 sqft</div>
+          <div class="spec-item"><i class="bx bx-user"></i> 2 Guests</div>
+          <div class="spec-item"><i class="bx bx-shower"></i> Private Bath</div>
+        </div>
+
+        <!-- Overview -->
+        <div class="section">
+          <h3>Overview</h3>
+          <p>Experience luxury and comfort in our Deluxe Ocean View room...</p>
+        </div>
+
+        <!-- Amenities -->
+        <div class="section">
+          <h3>Room Amenities</h3>
+          <div class="amenities-grid">
+            <div class="amenity-item"><i class="bx bx-wind amenity-icon"></i> Air Conditioning</div>
+            <div class="amenity-item"><i class="bx bx-tv amenity-icon"></i> 55" Smart TV</div>
+            <div class="amenity-item"><i class="bx bx-wifi amenity-icon"></i> High-Speed Wi-Fi</div>
+            <div class="amenity-item"><i class="bx bx-lock-alt amenity-icon"></i> Electronic Safe</div>
+            <div class="amenity-item"><i class="bx bx-volume-full amenity-icon"></i> Premium Sound System</div>
+            <div class="amenity-item"><i class="bx bxs-magic-wand amenity-icon"></i>Vanity Mirror</div>
+            <div class="amenity-item"><i class="bx bx-bath amenity-icon"></i> Luxury Bathtub</div>
+            <div class="amenity-item"><i class="bx bx-shower amenity-icon"></i> Rain Shower</div>
+            <div class="amenity-item"><i class="bx bx-time-five amenity-icon"></i> Smart Alarm Clock</div>
+          </div>
+        </div>
+
+        <!-- Booking Rules -->
+        <div class="section">
+          <h3>Booking Rules</h3>
+          <div class="rules-grid">
+            <div class="rules-column">
+              <h4>Check In</h4>
+              <div class="rule-item">Check-in from 2:00 PM</div>
+              <div class="rule-item">Early check-in subject to availability</div>
+              <div class="rule-item">Valid ID required</div>
+            </div>
+
+            <div class="rules-column">
+              <h4>Check Out</h4>
+              <div class="rule-item">Check-out before 12:00 PM</div>
+              <div class="rule-item">Late check-out available</div>
+              <div class="rule-item">Express check-out available</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Map -->
+        <div class="section">
+          <h3>Location</h3>
+          <div class="map-container">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3944.638579137773!2d115.12529877594407!3d-8.647817491425627!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd24761d7d3f2c7%3A0xe3c110b8e983b6d2!2sCanggu%20Beach!5e0!3m2!1sen!2sid!4v1700000000000!5m2!1sen!2sid"
+              width="100%"
+              height="100%"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            >
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ================= FOOTER ================= -->
+    <section class="footer">
+      <div class="footer-container container">
+        <h2>BuddiesHotel</h2>
+
+        <div class="footer-box">
+          <h3>Quick Links</h3>
+          <a href="#">About Us</a>
+          <a href="#">Hotels</a>
+          <a href="#">Contact</a>
+        </div>
+
+        <div class="footer-box">
+          <h3>Popular Areas</h3>
+          <a href="#">Seminyak</a>
+          <a href="#">Ubud</a>
+          <a href="#">Canggu</a>
+          <a href="#">Nusa Dua</a>
+        </div>
+
+        <div class="footer-box">
+          <h3>Contact</h3>
+          <a href="#">+62 361 123 4567</a>
+          <a href="#">info@buddieshotel.com</a>
+          <div class="social">
+            <a href="#"><i class="bx bxl-facebook"></i></a>
+            <a href="#"><i class="bx bxl-twitter"></i></a>
+            <a href="#"><i class="bx bxl-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="copyright">
+      <p>© BuddiesHotel All Right Reserved</p>
+    </div>
+  </body>
+</html>

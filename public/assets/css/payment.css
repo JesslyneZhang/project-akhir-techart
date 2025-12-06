@@ -1,0 +1,82 @@
+/* ==== GLOBAL RESET ==== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* ==== PAGE LAYOUT ==== */
+body {
+    background: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* ==== CARD CONTAINER ==== */
+.payment-container {
+    width: 420px;
+    background: #fff;
+    padding: 25px;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.payment-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* ==== FORM ==== */
+.payment-container label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 6px;
+    color: #333;
+}
+
+.payment-container input,
+.payment-container select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 14px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    transition: .2s;
+}
+
+.payment-container input:focus {
+    border-color: #007bff;
+}
+
+/* ==== TOTAL PRICE BOX ==== */
+.total-box {
+    background: #f8f8f8;
+    padding: 14px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+/* ==== BUTTON ==== */
+.btn-submit {
+    width: 100%;
+    padding: 12px;
+    background: #007bff;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.btn-submit:hover {
+    background: #005fcc;
+}
