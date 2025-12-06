@@ -24,7 +24,7 @@ Website Buddies Hotel merupakan platform pemesanan kamar hotel berbasis web yang
 2. Pindahkan project ke ke htdocs (XAMPP).
    /Applications/XAMPP/xamppfiles/htdocs/
 3. Import database dari /docs/db.sql.
-4. Jalankan di browser: http://localhost/project-akhir-techart/
+4. Jalankan di browser: http://localhost/BuddiesHotel/
 
 ##  Dokumentasi Tambahan
 - [Flow Aplikasi](./FLOW_APP.md)
