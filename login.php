@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BuddiesHotel - Login</title>
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link rel="stylesheet" href="public/assets/css/login.css" />
+    <link rel="stylesheet" href="public/assets/css/style.css" />
+  </head>
+  <body>
+    <div class="login-wrapper">
+      <!-- PILIHAN ROLE -->
+      <div class="role-box" id="roleBox">
+        <h2>Login As</h2>
+        <div class="role-options">
+          <div class="role-card" onclick="selectRole('admin')">
+            <i class="fa-solid fa-user-shield role-icon"></i>
+            <h3>Admin</h3>
+            <p>Kelola data hotel</p>
+          </div>
+
+          <div class="role-card" onclick="selectRole('user')">
+            <i class="fa-solid fa-user role-icon"></i>
+            <h3>User</h3>
+            <p>Booking & reservasi</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- FORM LOGIN -->
+      <div class="login-card" id="loginCard">
+        <h2 id="loginTitle">Login</h2>
+        <p class="subtitle" id="loginSubtitle">Silakan login</p>
+
+        <form id="loginForm">
+          <input type="hidden" id="roleInput" />
+
+          <div class="form-group">
+            <label>Email</label>
+            <div class="input-group">
+              <input type="email" id="email" required />
+              <i class="fa-solid fa-envelope input-icon"></i>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label>Password</label>
+            <div class="input-group">
+              <input type="password" id="password" required />
+              <i class="fa-solid fa-eye toggle-icon" onclick="togglePassword()" id="eyeIcon"></i>
+            </div>
+          </div>
+
+          <div class="form-options">
+            <label><input type="checkbox" /> Remember me</label>
+            <a href="#">Forgot password?</a>
+          </div>
+
+          <button type="submit" class="btn-primary">Login</button>
+          <button type="button" class="btn-secondary" onclick="backToRole()">Back</button>
+        </form>
+      </div>
+    </div>
+
+    <script src="public/assets/js/script.js"></script>
+    <script src="public/assets/js/login.js"></script>
+  </body>
+</html>

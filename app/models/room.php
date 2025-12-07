@@ -5,11 +5,16 @@ class Room {
     private $conn;
     private $table = "rooms";
 
+<<<<<<< HEAD
     public function __construct() {
+=======
+    public function __construct(){
+>>>>>>> d56aed8b910e289015a741ac6753552a1bfae8b7
         $database = new Database();
         $this->conn = $database->getConnection();
     }
 
+<<<<<<< HEAD
     // Simpan kamar baru (admin)
     public function create($hotelId, $roomType, $price, $capacity) {
         $query = "INSERT INTO " . $this->table . " (hotel_id, room_type, price, capacity) 
@@ -42,4 +47,12 @@ class Room {
         $stmt->execute();
         return $stmt->fetch(PDO::FETCH_ASSOC);
     }
+=======
+    public function getAllRooms(){
+        $query = "SELECT * FROM " . $this->table;
+        $stmt = $this->conn->prepare($query);
+        $stmt->execute();
+        return $stmt->fetchAll(PDO::FETCH_ASSOC);
+    }
+>>>>>>> d56aed8b910e289015a741ac6753552a1bfae8b7
 }
