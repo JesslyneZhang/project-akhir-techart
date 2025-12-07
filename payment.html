@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Payment Method - BuddiesHotel</title>
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="public/assets/css/style.css" />
+    <link rel="stylesheet" href="public/assets/css/payment.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <header>
+      <div class="nav container">
+        <a href="index.html" class="logo"> <i class="bx bx-home-alt"></i>BuddiesHotel </a>
+        <input type="checkbox" id="menu" />
+        <label for="menu"><i class="bx bx-menu" id="menu-icon"></i></label>
+        <ul class="navbar">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about_us.html">About Us</a></li>
+          <li><a href="contact_us.html">Contact Us</a></li>
+          <li><a href="hotel.html">Hotel</a></li>
+        </ul>
+        <a href="login.html" class="btn">Log In</a>
+      </div>
+    </header>
+
+    <main>
+      <div class="payment-container">
+        <!-- Close Button -->
+        <button class="close-btn"><i class="bx bx-x"></i></button>
+
+        <!-- Left Section -->
+        <div class="left-section">
+          <div class="logo">
+            <span class="logo-text">BuddiesHotel</span>
+          </div>
+
+          <form id="paymentForm">
+            <div class="form-group">
+              <label><i class="bx bx-credit-card"></i> Card Number</label>
+              <span class="subtitle">Enter the 16-digit card number</span>
+              <input type="text" id="cardNumber" placeholder="2412 - 7512 - 3412 - 3456" maxlength="22" />
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label><i class="bx bx-lock-alt"></i> CVV Number</label>
+                <span class="subtitle">Enter the 3 or 4 digit CVV</span>
+                <input type="text" id="cvv" placeholder="327" maxlength="4" />
+              </div>
+              <div class="form-group">
+                <label><i class="bx bx-calendar"></i> Expiry Date</label>
+                <span class="subtitle">MM / YY</span>
+                <div class="expiry-inputs">
+                  <input type="text" id="expiryMonth" placeholder="09" maxlength="2" />
+                  <span>/</span>
+                  <input type="text" id="expiryYear" placeholder="22" maxlength="2" />
+                </div>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label><i class="bx bx-key"></i> Password</label>
+              <span class="subtitle">Enter your dynamic password</span>
+              <div class="input-wrapper">
+                <input type="password" id="password" placeholder="••••••••" />
+                <i class="bx bx-show toggle-icon" onclick="togglePassword()"></i>
+              </div>
+            </div>
+
+            <button type="submit" class="pay-btn"><i class="bx bx-check-circle"></i> Pay Now</button>
+          </form>
+        </div>
+
+        <!-- Right Section -->
+        <div class="right-section">
+          <div class="order-details">
+            <div class="detail-row"><span class="label">Hotel Name</span><span class="value">BuddiesHotel Bali</span></div>
+            <div class="detail-row"><span class="label">Booking Number</span><span class="value">BH2025001</span></div>
+            <div class="detail-row"><span class="label">Room Type</span><span class="value">Deluxe Ocean View</span></div>
+            <div class="detail-row"><span class="label">Check-in Date</span><span class="value">Jan 15, 2025</span></div>
+            <div class="detail-row"><span class="label">Check-out Date</span><span class="value">Jan 18, 2025</span></div>
+            <div class="detail-row"><span class="label">Number of Nights</span><span class="value">3 Nights</span></div>
+            <div class="detail-row"><span class="label">Tax & Service (15%)</span><span class="value">Rp 562,500</span></div>
+            <hr class="divider" />
+            <div class="total-row">
+              <div>
+                <div class="total-label">Total Payment</div>
+                <div class="total-amount">Rp 4,312,500 <span class="currency">IDR</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">© 2025 BuddiesHotel. All rights reserved.</footer>
+
+    <script src="public/assets/js/payment.js"></script>
+  </body>
+</html>
